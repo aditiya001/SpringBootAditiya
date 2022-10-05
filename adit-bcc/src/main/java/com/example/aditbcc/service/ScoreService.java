@@ -6,4 +6,6 @@ import com.example.aditbcc.model.Score;
 
 public interface ScoreService {
 	public List<Score>getAllScore();
+	
+	public String addScore(Score score);
 }
